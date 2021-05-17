@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payed_articles",
+  "info": {
+    "name": "Payed Articles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payed_article_1": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

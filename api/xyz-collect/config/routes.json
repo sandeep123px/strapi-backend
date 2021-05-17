@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/xyz-collects",
+      "handler": "xyz-collect.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xyz-collects/count",
+      "handler": "xyz-collect.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xyz-collects/:id",
+      "handler": "xyz-collect.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/xyz-collects",
+      "handler": "xyz-collect.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/xyz-collects/:id",
+      "handler": "xyz-collect.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/xyz-collects/:id",
+      "handler": "xyz-collect.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

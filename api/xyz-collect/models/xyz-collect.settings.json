@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "xyz_collects",
+  "info": {
+    "name": "XYZ collect"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
